@@ -1,0 +1,24 @@
+project (assignemt3) {
+	exename = assignment3
+	install = .
+
+	specific (make, gnauce) {
+		compile_flags += -std=c++11
+	}
+	
+	Source_Files {
+		driver.cpp
+		Calculator.cpp
+		Expr_Command_Factory.cpp
+		Stack_Expr_Command_Factory.cpp
+	}
+
+	Template_Files {
+		Base_Array.cpp
+		Array.cpp
+		Stack.cpp
+		array_auto_ptr.cpp
+
+		Array_Iterator.h
+	}
+}

@@ -1,0 +1,4 @@
+/home/flynn/Documents/clion-2017.3.4/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/flynn/Documents/cs36300-spring2018-calculator1
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/flynn/Documents/cs36300-spring2018-calculator1/cmake-build-debug
